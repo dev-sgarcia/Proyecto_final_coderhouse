@@ -78,8 +78,10 @@
         .social_icon{
             float: left;
             margin-top: 38px;
+            width: 100%;            
             @media #{$tab}{
                 margin-top: 15px;
+                width: 100%;
             }
             @media #{$medium_device}{
             

@@ -1,6 +1,7 @@
 .mapa {
-  margin: 10px;
+  width: 100%;
 }
+
 .contact-info{
   margin-bottom: 25px;
 
@@ -31,14 +32,11 @@
     }
   }
 }
-/*=================== contact banner end ====================*/
 
-
-/*=================== contact form start ====================*/
 .contact-title{
-  font-size: 27px;
+  font-size: 25px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .form-contact{
@@ -75,16 +73,7 @@
     height: 100% !important;
   }
 
-  // button{
-  //   border: 0;
-  // }
 }
-
-/*=================== contact form end ====================*/
-
-/* Contact Success and error Area css
-============================================================================================ */
-
 
 .modal-message {
     .modal-dialog {
