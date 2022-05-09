@@ -3,8 +3,7 @@
 body{
     font-family: $font_stack_1;
     padding: 0;
-    margin: 0;
-    font-size: 14px;
+    margin: 0;  
 }
 section{
     overflow: hidden !important;
@@ -193,7 +192,8 @@ a:focus, .button:focus, button:focus, .btn:focus {
             line-height: 40px;
         }
         @media #{$medium_device}{
-        
+            font-size: 30px;
+            line-height: 40px;        
         }
     }
 }

@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <!-- Animaciones  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
     <!--  Iconos  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
@@ -43,10 +44,10 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item animate__animated animate__pulse">
+                        <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item animate__animated animate__pulse">
                             <a class="nav-link active text-light" aria-current="page" href="empresa.html">EMPRESA</a>
                         </li>
                         <li class="nav-item">
@@ -70,15 +71,15 @@
         <section id="carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="img/banner/banner5.png" class="d-block w-100" alt="">
+                    <img src="img/banner/banner_nosotros_1.png" class="d-block w-100" alt="">
                 </div>
 
                 <div class="carousel-item" data-bs-interval="3000">
-                    <img src="img/banner/banner5.png" class="d-block w-100" alt="...">
+                    <img src="img/banner/banner_nosotros_2.png" class="d-block w-100" alt="...">
                 </div>
 
                 <div class="carousel-item" data-bs-interval="3000">
-                    <img src="img/banner/banner5.png" class="d-block w-100" alt="...">
+                    <img src="img/banner/banner_nosotros_3.png" class="d-block w-100" alt="...">
                 </div>
 
             </div>
@@ -99,7 +100,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h1 class="about-title text-center"><span>AG Renta</span>, tu proveedor de renta de autobuses y camionetas.
+                        <h1 class="about-title text-center"><span>AG Renta</span>, tu proveedor de renta de autobuses y
+                            camionetas.
                         </h1>
                     </div>
                 </div>
@@ -116,12 +118,12 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6" data-aos="fade-right">
                         <div class="about_img">
                             <img src="img/about.png" alt="">
                         </div>
                     </div>
-                    <div class="offset-lg-1 col-lg-5 col-sm-8 col-md-6">
+                    <div class="offset-lg-1 col-lg-5 col-sm-8 col-md-6" data-aos="fade-left">
                         <div class="about_text">
                             <h2 class="text-center">12 Años<span> de experiencia nos permiten ofrecerte un
                                     servicio</span> de calidad.</h2>
@@ -148,9 +150,12 @@
                         <p>Dale click a la red social de tu preferencia.</p>
                         <div class="footer_icon social_icon">
                             <ul class="list-unstyled text-center">
-                                <li><a href="#" class="bi bi-facebook"></a></li>
-                                <li><a href="#" class="bi bi-twitter"></a></li>
-                                <li><a href="#" class="bi bi-instagram"></a></li>
+                                <li><a href="https://www.facebook.com/RentaCamionetasyAutobusesAutobusya"
+                                        target="_blank" class="bi bi-facebook"></a></li>
+                                <li><a href="https://twitter.com/camionetascdmx" target="_blank"
+                                        class="bi bi-twitter"></a></li>
+                                <li><a href="https://www.instagram.com/wondervanmx/?hl=es" target="_blank"
+                                        class="bi bi-instagram"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -231,6 +236,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
 </body>
 
 </html>

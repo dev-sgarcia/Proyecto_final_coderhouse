@@ -70,7 +70,7 @@
                     margin-bottom: 10px;
                     display: inline-block;
                     &:hover{
-                        color: $btn_bg !important;
+                        color: $color_naranja !important;
                     }
                 }
             }
@@ -111,12 +111,12 @@
                 top: 20px;
                 width: 60px;
                 height: 39px;
-                background-color: #ff3334;
+                background-color: $color_naranja;
                 text-align: center;
-                color: #fff;
+                color: $color_blanco;
                 border-radius: 50px;
                 line-height: 10px;
-                border: 2px solid #ff3334;
+                border: 2px solid $color_naranja;
             }
         }
 
@@ -135,7 +135,7 @@
         margin-bottom: 25px;    
     }
     .footer_icon{
-        text-align: right;
+        text-align: center;
         li{
             display: inline-block;
             a{
@@ -158,7 +158,7 @@
                 }
                 @include transform_time(.5s);
                 :hover{
-                    color: $btn_bg;
+                    color: $color_naranja !important;
                 }
             }
         }
@@ -189,7 +189,7 @@
         color: $btn_bg;
         @include transform_time(.5s);
         &:hover{
-            color: $btn_bg;
+            color: $color_naranja;
         }
     }
 }

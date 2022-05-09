@@ -20,6 +20,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
    <!-- Animaciones  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <link rel="stylesheet" href="./css/estilos.css">
    <!--  Iconos  -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
@@ -44,13 +45,13 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav mx-auto">
-                  <li class="nav-item animate__animated animate__pulse">
+                  <li class="nav-item">
                      <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
                   </li>
                   <li class="nav-item ">
                      <a class="nav-link" aria-current="page" href="empresa.html">EMPRESA</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item  animate__animated animate__pulse">
                      <a class="nav-link active text-light" aria-current="page" href="unidades.html">UNIDADES</a>
                   </li>
                   <li class="nav-item">
@@ -70,17 +71,17 @@
       <section id="carousel" class="carousel slide" data-bs-ride="carousel">
          <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
-               <img src="img/banner/banner_general.png" class="d-block w-100" alt="">
+               <img src="img/banner/banner_unidades_1.png" class="d-block w-100" alt="">
             </div>
 
 
             <div class="carousel-item" data-bs-interval="3000">
-               <img src="img/banner/banner_general.png" class="d-block w-100" alt="...">
+               <img src="img/banner/banner_unidades_2.png" class="d-block w-100" alt="...">
             </div>
 
 
             <div class="carousel-item" data-bs-interval="3000">
-               <img src="img/banner/banner_general.png" class="d-block w-100" alt="...">
+               <img src="img/banner/banner_unidades_3.png" class="d-block w-100" alt="...">
             </div>
 
          </div>
@@ -100,7 +101,8 @@
       <div class="container">
          <div class="row">
             <div class="col-12">
-               <h1 class="about-title text-center">Conoce nuestras unidades y renta la que más se adapte a tus necesidades.</h1>
+               <h1 class="about-title text-center">Conoce nuestras unidades y renta la que más se adapte a tus
+                  necesidades.</h1>
             </div>
          </div>
       </div>
@@ -111,57 +113,57 @@
 
    <section class="container pt-2 overflow-hidden d-flex align-items-center justify-content-center galeria">
       <div class="row">
-         <div class="col-12 col-lg-4">
-            <div class="galeria_imagenes1 galeria_imagenes--g1 animate__animated animate__backInLeft card-img-overlay">
-               <img src="img/unidades/camioneta1.png" alt="Control de velocidad" class="galeria_img">
+         <div class="col-12 col-lg-4" data-aos="fade-up-right">
+            <div class="galeria_imagenes1 animate__animated animate__backInLeft card-img-overlay">
+               <img src="img/unidades/camioneta1.png" alt="camioneta blanca" class="galeria_img">
             </div>
          </div>
 
-         <div class="col-12 col-lg-4">
-            <div class="galeria_imagenes2 galeria_imagenes--g2 animate__animated animate__bounceIn card-img-overlay">
-               <img src="img/unidades/camioneta3.png" alt="Control de velocidad" class="galeria_img">
+         <div class="col-12 col-lg-4" data-aos="flip-left">
+            <div class="galeria_imagenes2 animate__animated animate__bounceIn card-img-overlay">
+               <img src="img/unidades/camioneta4.png" alt="camioneta ventanas" class="galeria_img">
             </div>
          </div>
 
-         <div class="col-12 col-lg-4">
+         <div class="col-12 col-lg-4" data-aos="fade-up-left">
             <div class="galeria_imagenes3 galeria_imagenes--g3 animate__animated animate__backInRight card-img-overlay">
-               <img src="img/unidades/camioneta2.png" alt="Control de velocidad" class="galeria_img">
+               <img src="img/unidades/camioneta2.png" alt="camioneta sin ventanas" class="galeria_img">
             </div>
          </div>
 
-         <div class="col-12 col-lg-4">
+         <div class="col-12 col-lg-4" data-aos="fade-up-right">
             <div class="galeria_imagenes4 galeria_imagenes--g4 animate__animated animate__backInLeft card-img-overlay">
-               <img src="img/unidades/camioneta6.png" alt="Aire acondicionado" class="galeria_img">
+               <img src="img/unidades/camioneta6.png" alt="autobus turismo" class="galeria_img">
             </div>
          </div>
 
-         <div class="col-12 col-lg-4">
+         <div class="col-12 col-lg-4" data-aos="flip-right">
             <div class="galeria_imagenes5 galeria_imagenes--g5 animate__animated animate__bounceIn card-img-overlay">
-               <img src="img/unidades/camioneta9.png" alt="Fondo de garantía" class="galeria_img">
+               <img src="img/unidades/camioneta9.png" alt="autobus pasajeros" class="galeria_img">
             </div>
          </div>
 
-         <div class="col-12 col-lg-4">
+         <div class="col-12 col-lg-4" data-aos="fade-up-left">
             <div class="galeria_imagenes6 galeria_imagenes--g6 animate__animated animate__backInRight card-img-overlay">
-               <img src="img/unidades/camioneta5.png" alt="Operadores certificados" class="galeria_img">
+               <img src="img/unidades/camioneta5.png" alt="autobus escolar" class="galeria_img">
             </div>
          </div>
 
-         <div class="col-12 col-lg-4">
+         <div class="col-12 col-lg-4" data-aos="fade-up-right">
             <div class="galeria_imagenes7 galeria_imagenes--g7 animate__animated animate__backInLeft card-img-overlay">
-               <img src="img/unidades/camioneta7.png" alt="Cinturon de seguridad" class="galeria_img">
+               <img src="img/unidades/camioneta7.png" alt="autobus gran turismo" class="galeria_img">
             </div>
          </div>
 
-         <div class="col-12 col-lg-4">
-            <div class="galeria_imagenes8 galeria_imagenes--g8 animate__animated animate__bounceIn card-img-overlay">
-               <img src="img/unidades/camioneta8.png" alt="Asientos reclinables" class="galeria_img">
+         <div class="col-12 col-lg-4" data-aos="flip-up">
+            <div class="galeria_imagenes8 animate__animated animate__bounceIn card-img-overlay">
+               <img src="img/unidades/camioneta8.png" alt="autobus pasajeros" class="galeria_img">
             </div>
          </div>
 
-         <div class="col-12 col-lg-4">
-            <div class="galeria_imagenes9 galeria_imagenes--g9 animate__animated animate__backInRight card-img-overlay">
-               <img src="img/unidades/camioneta4.png" alt="Asientos reclinables" class="galeria_img">
+         <div class="col-12 col-lg-4" data-aos="fade-up-left">
+            <div class="galeria_imagenes9 animate__animated animate__backInRight card-img-overlay">
+               <img src="img/unidades/camioneta3.png" alt="camioneta mercantil" class="galeria_img">
             </div>
          </div>
       </div>
@@ -177,9 +179,11 @@
                   <p>Dale click a la red social de tu preferencia.</p>
                   <div class="footer_icon social_icon">
                      <ul class="list-unstyled text-center">
-                        <li><a href="#" class="bi bi-facebook"></a></li>
-                        <li><a href="#" class="bi bi-twitter"></a></li>
-                        <li><a href="#" class="bi bi-instagram"></a></li>
+                        <li><a href="https://www.facebook.com/RentaCamionetasyAutobusesAutobusya" target="_blank"
+                              class="bi bi-facebook"></a></li>
+                        <li><a href="https://twitter.com/camionetascdmx" target="_blank" class="bi bi-twitter"></a></li>
+                        <li><a href="https://www.instagram.com/wondervanmx/?hl=es" target="_blank"
+                              class="bi bi-instagram"></a></li>
                      </ul>
                   </div>
                </div>
@@ -257,6 +261,10 @@
    <!-- Option 1: Bootstrap Bundle with Popper -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+   </script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
    </script>
 
 </body>
